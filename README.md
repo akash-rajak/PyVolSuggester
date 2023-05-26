@@ -82,8 +82,6 @@
     - This command will install all the uninstalled required libraries used in script.
 - Suggester.main()
     - This will prompt user for input of audio file selection.
-- Suggester.mp3towav()
-	- This will convert the selected .mp3 audio file to .wav file.
 - Suggester.extract()
 	- This will extract the generic features of the selected audio file.
 - Suggester.play_pause_stop()

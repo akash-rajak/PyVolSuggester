@@ -425,6 +425,7 @@ def main():
     file = filedialog.askopenfilename(title="Select an Audio file", filetypes=[("Audio Files", "*.mp3"), ("All Files", "*.*")])
     if (file != ""):
         print(file)
+        mp3towav()
         # playsound(file)
 
         ## calling play_pause_stop function

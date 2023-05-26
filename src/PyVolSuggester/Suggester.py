@@ -1,4 +1,14 @@
 
+import subprocess
+
+my_libraries = ['time', 'pyaudio', 'pynput', 'wave', 'numpy', 'matplotlib', 'librosa', 'mutagen', 'tkinter', 'pathlib']
+for module in my_libraries:
+    try:
+        __import__(module)
+    except ImportError:
+        subprocess.check_call(["pip", "install", module])
+
+
 ## importing necessary library
 from tkinter import filedialog, Tk
 from playsound import playsound

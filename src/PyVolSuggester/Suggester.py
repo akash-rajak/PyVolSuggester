@@ -11,7 +11,7 @@ for module in my_libraries:
 
 ## importing necessary library
 from tkinter import filedialog, Tk
-from playsound import playsound
+# from playsound import playsound
 import pyaudio
 import time
 from pynput import keyboard
@@ -426,6 +426,11 @@ def suggest_volume():
         print("High Volume")
     else:
         print("Low Volume")
+
+
+## function defined to exit from program
+def exit_program():
+    exit()
 
 
 ## defining main function

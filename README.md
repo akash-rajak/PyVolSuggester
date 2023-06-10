@@ -30,6 +30,18 @@
 	<img src = "https://img.shields.io/github/discussions/akash-rajak/PyVolSuggester", alt = "GitHub Discussions">
 </p>
 <p align = "center">
+	<img src = "https://img.shields.io/pypi/dd/PyVolSuggester", alt = "PyPI - Downloads per day">
+	<img src = "https://img.shields.io/pypi/dw/PyVolSuggester", alt = "PyPI - Downloads per week">
+	<img src = "https://img.shields.io/pypi/dm/PyVolSuggester", alt = "PyPI - Downloads per month">
+</p>
+<p align = "center">
+	<img src = "https://img.shields.io/pypi/v/PyVolSuggester", alt = "PyPI Version">
+	<img src = "https://img.shields.io/pypi/implementation/PyVolSuggester", alt = "PyPI - Implementation">
+	<img src = "https://img.shields.io/pypi/pyversions/PyVolSuggester", alt = "PyPI - Python Version">
+	<img src = "https://img.shields.io/pypi/format/PyVolSuggester", alt = "PyPI - Format">
+	<img src = "https://img.shields.io/pypi/status/PyVolSuggester", alt = "PyPI - Status">
+</p>
+<p align = "center">
 	<img src = "https://img.shields.io/github/license/akash-rajak/PyVolSuggester", alt = "Github">
 </p>
 

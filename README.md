@@ -42,6 +42,13 @@
 	<img src = "https://img.shields.io/pypi/status/PyVolSuggester", alt = "PyPI - Status">
 </p>
 <p align = "center">
+	<img src = "https://img.shields.io/github/downloads/akash-rajak/PyVolSuggester/total", alt = "GitHub all releases">
+	<img src = "https://img.shields.io/github/v/release/akash-rajak/PyVolSuggester", alt = "GitHub release version (latest by date)">
+	<img src = "https://img.shields.io/github/v/tag/akash-rajak/PyVolSuggester", alt = "GitHub tag (latest by date)">
+	<img src = "https://img.shields.io/github/release-date/akash-rajak/PyVolSuggester", alt = "GitHub Release Date">
+	<img src = "https://img.shields.io/github/release-date-pre/akash-rajak/PyVolSuggester", alt = "GitHub (Pre-)Release Date">
+</p>
+<p align = "center">
 	<img src = "https://img.shields.io/github/license/akash-rajak/PyVolSuggester", alt = "Github">
 </p>
 

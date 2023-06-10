@@ -3,11 +3,41 @@
 - In backend, it extracts various generic features for particular audio and analyze among them and provide feedback on volumne on it.  
 - This tools helps in maintaining goob vibes along the music playout.
 
+<p align = "center">
+	<img src = "https://img.shields.io/github/stars/akash-rajak/PyVolSuggester?style=social", alt = "GitHub Repo stars">
+	<img src = "https://img.shields.io/github/forks/akash-rajak/PyVolSuggester?style=social", alt = "GitHub Repo forks">
+	<img src = "https://img.shields.io/github/watchers/akash-rajak/PyVolSuggester?style=social", alt = "GitHub Repo watchers">
+	<img src = "https://img.shields.io/github/contributors/akash-rajak/PyVolSuggester?style=social", alt = "GitHub contributors">
+</p>
+<p align = "center">
+	<img src = "https://img.shields.io/github/languages/count/akash-rajak/PyVolSuggester?style=social", alt = "GitHub language count">
+	<img src = "https://img.shields.io/github/languages/top/akash-rajak/PyVolSuggester?style=social", alt = "GitHub top language">
+	<img src = "https://img.shields.io/github/directory-file-count/akash-rajak/PyVolSuggester?style=social", alt = "GitHub repo file count">
+	<img src = "https://img.shields.io/github/repo-size/akash-rajak/PyVolSuggester?style=social", alt = "GitHub repo size">
+</p>
+<p align = "center">
+	<img src = "https://img.shields.io/github/issues/akash-rajak/PyVolSuggester", alt = "GitHub issues">
+	<img src = "https://img.shields.io/github/issues-closed/akash-rajak/PyVolSuggester", alt = "GitHub closed issues">
+	<img src = "https://img.shields.io/github/issues-pr/akash-rajak/PyVolSuggester", alt = "GitHub pull requests">
+	<img src = "https://img.shields.io/github/issues-pr-closed/akash-rajak/PyVolSuggester", alt = "GitHub closed pull requests">
+</p>
+<p align = "center">
+	<img src = "https://img.shields.io/github/commit-activity/t/akash-rajak/PyVolSuggester", alt = "GitHub commit activity">
+	<img src = "https://img.shields.io/github/commit-activity/y/akash-rajak/PyVolSuggester", alt = "GitHub commit activity/year">
+	<img src = "https://img.shields.io/github/commit-activity/m/akash-rajak/PyVolSuggester", alt = "GitHub commit activity/month">
+	<img src = "https://img.shields.io/github/commit-activity/w/akash-rajak/PyVolSuggester", alt = "GitHub commit activity/week">
+	<img src = "https://img.shields.io/github/last-commit/akash-rajak/PyVolSuggester", alt = "GitHub last commit">
+	<img src = "https://img.shields.io/github/discussions/akash-rajak/PyVolSuggester", alt = "GitHub Discussions">
+</p>
+<p align = "center">
+	<img src = "https://img.shields.io/github/license/akash-rajak/PyVolSuggester", alt = "Github">
+</p>
+
 ![image](https://github.com/akash-rajak/Volume-Suggester/assets/57003737/1d332d56-b26a-4ba6-8b72-46efca4f1deb)
 
 ****
 
-### How this Script works :
+### 📌How this Script works :
 - First user need to download the script and run Volume Suggester.py in the local system.
 - After running it, user will be prompted to select an audio file(mp3 file) using dialog box.
 - Once user has selected the audio file, following feature extraction and analysis graph will be generated at the backend.
@@ -32,7 +62,7 @@
 	
 ****
 
-### Input/Output Deliverables:
+### 📌Input/Output Deliverables:
 ```
 - Input: 
     - Single Audio File (.mp3)
@@ -43,7 +73,7 @@
 
 ****
 
-### Features:
+### 📌Features:
 - Implemented following features in the package:
     1. Generic Audio Features:
         - `Channels` : (number of channels; 1 for mono, 2 for stereo audio)
@@ -70,13 +100,13 @@
 
 ****
 
-### Prerequisites:
+### 📌Prerequisites:
 - In order to use this package, one need to ensure the following requirements:
     - Python 3.7 or later installed on your machine.
 
 ****
 
-### Package Usage
+### 📌Package Usage
 ```
 - from PyVolSuggester import Suggester
     - This command will install all the uninstalled required libraries used in script.
@@ -107,7 +137,22 @@
 
 ```
 
-### Package Installation
+****
+
+### 📌Package Installation
 ```bash
 pip install PyVolSuggester
 ```
+
+****
+
+
+### 🌟Stargazers Over Time:
+[![Stargazers over time](https://starchart.cc/akash-rajak/PyVolSuggester.svg)](https://starchart.cc/akash-rajak/PyVolSuggester)
+
+****
+
+### 📌Contributors:
+<a href="https://github.com/akash-rajak/PyVolSuggester/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=akash-rajak/PyVolSuggester" />
+</a>

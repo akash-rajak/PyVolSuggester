@@ -4,6 +4,10 @@
 - This tools helps in maintaining goob vibes along the music playout.
 
 <p align = "center">
+	<img src = "https://img.shields.io/badge/Pypi Package-PyVolSuggester-green?style=plastic&logo=appveyor", alt = "PyVolSuggester">
+	<img src = "https://img.shields.io/badge/PyPi-Python Package Index-green?style=plastic&logo=appveyor", alt = "PyPi">
+</p>
+<p align = "center">
 	<img src = "https://img.shields.io/github/stars/akash-rajak/PyVolSuggester?style=social", alt = "GitHub Repo stars">
 	<img src = "https://img.shields.io/github/forks/akash-rajak/PyVolSuggester?style=social", alt = "GitHub Repo forks">
 	<img src = "https://img.shields.io/github/watchers/akash-rajak/PyVolSuggester?style=social", alt = "GitHub Repo watchers">

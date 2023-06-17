@@ -1,7 +1,7 @@
 
 import subprocess
 
-my_libraries = ['time', 'pyaudio', 'pynput', 'wave', 'numpy', 'matplotlib', 'librosa', 'mutagen', 'tkinter', 'pathlib']
+my_libraries = ['time', 'pyaudio', 'pydub', 'pynput', 'wave', 'numpy', 'matplotlib', 'librosa', 'mutagen', 'tkinter', 'pathlib']
 for module in my_libraries:
     try:
         __import__(module)
@@ -30,6 +30,7 @@ from pathlib import Path
 
 ## declared necessary global variable
 file = "" ## for selected file path
+ffmpeg_path = "" ## for stroring the ffmpeg path from input
 wav_file = "" ## for converted wav path
 plot_path = "" ## path to store the graph plots
 new_dir = "" ## to create a new directory of output
@@ -45,7 +46,7 @@ MAQ : C:/Users/MAQ/Path_programs/ffmpeg.exe
 Personal : C:/Users/aakas/PATH_Programs/ffmpeg-master-latest-win64-gpl/bin/ffmpeg.exe
 '''
 def mp3towav():
-    global file, wav_file, plot_path, new_dir
+    global file, wav_file, plot_path, new_dir, ffmpeg_path
 
     dir_name = os.path.dirname(file)
     base_file_name = Path(file).stem
@@ -53,7 +54,8 @@ def mp3towav():
     print("\nConverted .mp3 to .wav file and saved to same location from where .mp3 file selected...")
     print("Created : " + base_file_name + "_wav" + ".wav")
     # print(wav_file)
-    subprocess.call(['C:/Users/MAQ/Path_programs/ffmpeg.exe', '-i', file, wav_file])
+    subprocess.call([ffmpeg_path, '-i', file, wav_file])
+    # subprocess.call(['C:/Users/MAQ/Path_programs/ffmpeg.exe', '-i', file, wav_file])
     # subprocess.call(['C:/Users/aakas/PATH_Programs/ffmpeg-master-latest-win64-gpl/bin/ffmpeg.exe', '-i', file, wav_file])
 
     ## creating folder for saving output plot
@@ -435,7 +437,10 @@ def exit_program():
 
 ## defining main function
 def main():
-    global file
+    global file, ffmpeg_path
+
+    ffmpeg_path = input("Enter ffmpeg module path : ")
+
     print("Select Audio file : ")
     file = filedialog.askopenfilename(title="Select an Audio file", filetypes=[("Audio Files", "*.mp3"), ("All Files", "*.*")])
     if (file != ""):

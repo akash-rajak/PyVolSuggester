@@ -1,7 +1,7 @@
 ## ✔ PyVolSuggester Package
 - A Python package to provide suggestion on volume at which the music audio file needs to be played for better experience and feeling.
 - In backend, it extracts various generic features for particular audio and analyze among them and provide feedback on volumne on it.  
-- This tools helps in maintaining goob vibes along the music playout.
+- This tools helps in maintaining good vibes along the music playout.
 
 <p align = "center">
 	<img src = "https://img.shields.io/badge/Pypi Package-PyVolSuggester-green?style=plastic&logo=appveyor", alt = "PyVolSuggester">
@@ -195,7 +195,13 @@ pip install PyVolSuggester
 
 
 ### 🌟Stargazers Over Time:
+[![Stargazers repo roster for @akash-rajak/PyVolSuggester](https://reporoster.com/stars/akash-rajak/PyVolSuggester)](https://github.com/akash-rajak/PyVolSuggester/stargazers)
 [![Stargazers over time](https://starchart.cc/akash-rajak/PyVolSuggester.svg)](https://starchart.cc/akash-rajak/PyVolSuggester)
+
+****
+
+### 🌟Forkers Over Time:
+[![Forkers repo roster for @akash-rajak/PyVolSuggester](https://reporoster.com/forks/akash-rajak/PyVolSuggester)](https://github.com/akash-rajak/PyVolSuggester/network/members)
 
 ****
 

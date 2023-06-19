@@ -131,6 +131,10 @@
 ****
 
 ### 📌Package Usage
+This command will import the `PyVolSuggester` module.
+```
+import PyVolSuggester
+```
 This command will install all the uninstalled required libraries used in script.
 ```
 from PyVolSuggester import Suggester

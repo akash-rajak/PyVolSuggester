@@ -18,7 +18,7 @@ name = "PyVolSuggester"  # Required ## -----------------------------------------
 #
 # For a discussion on single-sourcing the version, see
 # https://packaging.python.org/guides/single-sourcing-package-version/
-version = "1.0.0"  # Required ## --------------------------------------------------------------------------------------------------------------------------------------
+version = "1.1.0"  # Required ## --------------------------------------------------------------------------------------------------------------------------------------
 
 # This is a one-line description or tagline of what your project does. This
 # corresponds to the "Summary" metadata field:
@@ -77,7 +77,7 @@ classifiers = [  # Optional ## -------------------------------------------------
   #   3 - Alpha
   #   4 - Beta
   #   5 - Production/Stable
-  "Development Status :: 3 - Alpha",
+  "Development Status :: 4 - Beta",
 
   # Indicate who your project is intended for
   "Intended Audience :: Developers",
@@ -134,13 +134,13 @@ classifiers = [  # Optional ## -------------------------------------------------
 "Homepage" = "https://github.com/akash-rajak/PyVolSuggester"
 "Bug Reports" = "https://github.com/akash-rajak/PyVolSuggester/issues"
 "Funding" = "https://donate.pypi.org"
-#"Say Thanks!" = "http://saythanks.io/to/example"
+"Say Thanks!" = "https://saythanks.io/to/aakashrajak02"
 "Source" = "https://github.com/akash-rajak/PyVolSuggester"
 
 # The following would provide a command line executable called `sample`
 # which executes the function `main` from this package when invoked.
-#[project.scripts]  # Optional
-#sample = "sample:main"
+[project.scripts]  # Optional
+sample = "sample:Suggester"
 
 # This is configuration specific to the `setuptools` build backend.
 # If you are using a different build backend, you will need to change this.
